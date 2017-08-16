@@ -10,7 +10,7 @@ if NOT EXIST "cache/cuda.exe" (
 )
 
 echo "Installing CUDA toolkit 8"
-cache/cuda.exe -s compiler_8.0 ^
+cache\cuda.exe -s compiler_8.0 ^
                   cublas_8.0 ^
                   cublas_dev_8.0 ^
                   cudart_8.0 ^
